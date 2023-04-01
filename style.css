@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  border: 4px solid #222222ee;
+  margin: 20px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: darkorchid;
+  color: azure;
+  font-size: 0.75em;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.content {
+  background-color: rgb(248, 214, 203);
+  height: 410px;
+  width: 100%;
+}
+
+.content .sidebar {
+  float: left;
+  width: 50%;
+}
+
+.sidebar .aside {
+  background-color: dodgerblue;
+  color: azure;
+  font-size: .7em;
+  height: 100%;
+  line-height: 205px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sidebar .nav {
+  background-color: crimson;
+  color: azure;
+  font-size: .7em;
+  line-height: 205px;
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content .main {
+  background-color: peru;
+  color: azure;
+  font-size: 0.7em;
+  float: right;
+  height: 410px;
+  line-height: 410px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 50%;
+}
+
+.footer {
+  background-color: dimgrey;
+  color: azure;
+  font-size: 0.75em;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
