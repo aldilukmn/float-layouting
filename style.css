@@ -33,13 +33,13 @@ body {
 
 .content .sidebar {
   float: left;
-  width: 50%;
+  width: 40%;
 }
 
 .sidebar .aside {
   background-color: dodgerblue;
   color: azure;
-  font-size: .7em;
+  font-size: 0.7em;
   height: 100%;
   line-height: 205px;
   text-align: center;
@@ -49,7 +49,7 @@ body {
 .sidebar .nav {
   background-color: crimson;
   color: azure;
-  font-size: .7em;
+  font-size: 0.7em;
   line-height: 205px;
   height: 100%;
   text-align: center;
@@ -65,7 +65,7 @@ body {
   line-height: 410px;
   text-transform: uppercase;
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 
 .footer {
